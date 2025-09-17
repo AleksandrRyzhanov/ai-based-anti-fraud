@@ -1,0 +1,23 @@
+{
+  "name": "mySchema",
+  "type": "object",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "RelevancyEvaluation",
+    "type": "object",
+    "properties": {
+      "relevant_score": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10
+      },
+      "irrelevancy_reasons": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["relevant_score", "irrelevancy_reasons"]
+  }
+}

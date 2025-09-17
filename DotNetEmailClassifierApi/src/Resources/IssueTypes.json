@@ -1,0 +1,132 @@
+{
+  "issue_types": [
+    {
+      "id": 1,
+      "type": "Accounting/Auditing/Financial Reporting",
+      "example": "Incorrect financial statements were submitted to stakeholders, and there are discrepancies in auditing practices that could impact reporting accuracy.",
+      "relevant": "Auditors failed to report unauthorized transactions, leading to discrepancies in financial reports.",
+      "partially_relevant": "An invoice was paid late due to human error, but there's no broader financial issue.",
+      "irrelevant": "The office coffee machine isn't working, which is impacting employee morale."
+    },
+    {
+      "id": 2,
+      "type": "Antitrust or Fair Trading",
+      "example": "A senior manager is engaging in price-fixing agreements with competitors, potentially violating fair trading and antitrust regulations.",
+      "relevant": "Collusion between our company and competitors was reported to manipulate market prices unfairly.",
+      "partially_relevant": "A competitor complained about overlapping product discounts that led to lost customers.",
+      "irrelevant": "The office air conditioning has broken down and needs immediate repair."
+    },
+    {
+      "id": 3,
+      "type": "Bribery and Kickbacks",
+      "example": "A vendor offered me a significant personal gift in exchange for ensuring their contract renewal with the company.",
+      "relevant": "An employee accepted monetary compensation from a contractor to influence purchasing decisions.",
+      "partially_relevant": "A client shared unsolicited promotional gifts during a discussion about future contracts.",
+      "irrelevant": "Team members are requesting more frequent coffee breaks during working hours."
+    },
+    {
+      "id": 4,
+      "type": "Code of Ethical Conduct Violation - Other",
+      "example": "An employee is disregarding the company's policy on respect and inclusivity, resulting in a hostile work environment.",
+      "relevant": "A manager overrules ethical financial procedures to expedite certain transactions, violating company policy.",
+      "partially_relevant": "Some employees are dressing casually, causing confusion about the official dress code policy.",
+      "irrelevant": "The office furniture design feels outdated and uncomfortable during meetings."
+    },
+    {
+      "id": 5,
+      "type": "Confidential Information",
+      "example": "A coworker is sharing confidential business strategies with external parties, posing a risk to our competitive advantage.",
+      "relevant": "A document containing detailed employee salaries was made publicly accessible online.",
+      "partially_relevant": "An employee accidentally shared outdated company policies during a presentation.",
+      "irrelevant": "The photocopier is jammed, and no one has been able to fix it for multiple weeks."
+    },
+    {
+      "id": 6,
+      "type": "Conflict of Interest",
+      "example": "A hiring decision is being influenced by a manager’s personal relationship with the candidate, creating a conflict of interest.",
+      "relevant": "A procurement officer awarded a vendor contract to their family member without disclosing the relationship.",
+      "partially_relevant": "A manager is suggesting vendors they trust but has no direct personal link to them.",
+      "irrelevant": "The cafeteria menu hasn’t been updated in several months, leading to dissatisfaction."
+    },
+    {
+      "id": 21,
+      "type": "Contracts",
+      "example": "I suspect that a recently-signed supplier contract has terms that are not legally compliant, exposing the company to legal risks.",
+      "relevant": "A vendor contract includes unapproved terms that might result in compliance issues for the business.",
+      "partially_relevant": "A delay in signing a vendor contract caused disruptions in the project timeline.",
+      "irrelevant": "Employees are requesting a ping-pong table to be added to the recreation area."
+    },
+    {
+      "id": 22,
+      "type": "Data Privacy",
+      "example": "Employees' personal information has been improperly accessed by unauthorized personnel, breaching data privacy regulations.",
+      "relevant": "Customer data was accidentally exposed on the company's public-facing website, breaching GDPR regulations.",
+      "partially_relevant": "Email addresses were shared inadvertently in an internal team-wide email.",
+      "irrelevant": "The staff Wi-Fi network is running slower than expected, hindering productivity levels."
+    },
+    {
+      "id": 7,
+      "type": "Discrimination",
+      "example": "I have witnessed pay disparities and promotion decisions being made based on gender, resulting in unfair treatment of female employees.",
+      "relevant": "An employee was denied a promotion due to their racial background despite being qualified.",
+      "partially_relevant": "Some departments have more men than women, but no evidence of discrimination has been found.",
+      "irrelevant": "Employees are arguing about the quality of coffee available in the break room."
+    },
+    {
+      "id": 8,
+      "type": "Employee Relations",
+      "example": "A team leader consistently disregards employee concerns and unfairly targets specific individuals during performance reviews.",
+      "relevant": "HR received multiple complaints about a manager’s aggressive and dismissive behavior toward their team.",
+      "partially_relevant": "Some employees feel unhappy due to workload increases but no direct evidence of mistrust exists.",
+      "irrelevant": "The office plants aren't being watered regularly, and this is causing discomfort for plant lovers."
+    },
+    {
+      "id": 9,
+      "type": "False Statements in Communications and Activities",
+      "example": "Management has distributed false information about product performance in an official communication to investors.",
+      "relevant": "A company representative presented inflated sales figures during a public investor meeting.",
+      "partially_relevant": "An email had minor typos in performance data but was quickly corrected before further distribution.",
+      "irrelevant": "An employee complained about excessive typos found in posters introducing upcoming social events."
+    },
+    {
+      "id": 10,
+      "type": "Gifts and Entertainment",
+      "example": "An employee accepted expensive tickets from a supplier, which may violate the company's gifts and entertainment policy.",
+      "relevant": "A manager accepted a corporate gift of luxury electronics in exchange for favorable decision-making.",
+      "partially_relevant": "Team members were given free pens at a conference from external workshop exhibitors.",
+      "irrelevant": "Employees are requesting that the office host a trivia event during off-hours."
+    },
+    {
+      "id": 23,
+      "type": "Government Regulations",
+      "example": "The company is not complying with local environmental regulations in its waste disposal processes, risking fines from the authorities.",
+      "relevant": "Authorities flagged non-compliance with safety inspections at a manufacturing facility.",
+      "partially_relevant": "There are complaints about unclear government rules slowing down business processes.",
+      "irrelevant": "The vending machine is out of snacks, and employees are upset about it."
+    },
+    {
+      "id": 11,
+      "type": "Harassment",
+      "example": "A colleague is sending inappropriate and unwanted messages to another employee, creating a hostile work environment.",
+      "relevant": "A senior employee is physically intimidating juniors in the team, creating a toxic work culture.",
+      "partially_relevant": "Multiple team members feel micromanaged but haven't provided specific examples supporting harassment claims.",
+      "irrelevant": "Employees are disagreeing over where to eat during team outings."
+    },
+    {
+      "id": 12,
+      "type": "Immigration Concerns",
+      "example": "There is suspected non-compliance with immigration laws in hiring practices for international employees.",
+      "relevant": "An employee’s visa status was ignored, leading to non-compliance with work authorization laws.",
+      "partially_relevant": "A delay occurred in processing a work permit, but no laws were violated.",
+      "irrelevant": "The office party budget has been reduced, frustrating employees."
+    },
+    {
+      "id": 25,
+      "type": "Trade Compliance",
+      "example": "The company has been exporting products to regions with sanctions in place, which might result in violations of trade laws.",
+      "relevant": "A supplier is involved in unregulated trade practices, violating international compliance standards.",
+      "partially_relevant": "A shipping delay affected a regulated market zone but didn’t break compliance rules.",
+      "irrelevant": "Some colleagues want more ergonomic chairs for their desks."
+    }
+  ]
+}

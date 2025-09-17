@@ -1,0 +1,24 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+
+# VS Code settings
+.vscode/
+
+# Benchmark and test data
+DotNetEmailClassifierApi/benchmark/
+data/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other
+*.swp
+*.tmp
